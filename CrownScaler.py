@@ -4,13 +4,13 @@
       "cell_type": "code",
       "source": [
         "\n",
-        "# @title 👑 CrownScaler V 3.0\n",
+        "# @title 👑 CrownScaler V 3.5\n",
         "import os as _0x1a, sys as _0x2b, base64 as _0x3c\n",
         "from IPython.display import display as _0x4d, HTML as _0x5e, Javascript as _0x6f\n",
         "\n",
         "_0x70 = _0x3c.b64decode(b'L3Vzci9sb2NhbC9zaGFyZS8uY29uZmlnLy5zeXNfcnVudGltZQ==').decode()\n",
         "_0x81 = f\"{_0x70}/{_0x3c.b64decode(b'Y3Jvd25zY2FsZXIuc28=').decode()}\"\n",
-        "_0xdrive_id_b64 = b'MXNOUGFiN3h1dEpFREpRUDYwUG1zbjJoOUpoTE04Y0dl'\n",
+        "_0xdrive_id_b64 = b'MVVTeDlOWjM0ZWxlM3ZQalIyUlNVT1pxZTVZY1UyZmQ2'\n",
         "_0xfile_id = _0x3c.b64decode(_0xdrive_id_b64).decode()\n",
         "\n",
         "if not _0x1a.path.exists(_0x81) or _0x1a.path.getsize(_0x81) < 1024:\n",
@@ -34,7 +34,7 @@
       "metadata": {
         "cellView": "form",
         "id": "3CKu1P_J-765",
-        "editable": false
+        "editable": true
       },
       "execution_count": null,
       "outputs": []
@@ -43,7 +43,10 @@
       "cell_type": "markdown",
       "source": [
         "**UPDATES**\n",
-        "* Now Make Twixtors"
+        "* Convert to HDR\n",
+        "* Use and Share Presets\n",
+        "* Faster Twixtoring\n",
+        "* Added and changed few other things."
       ],
       "metadata": {
         "id": "1hSmQHWAGwDZ"
@@ -51,9 +54,7 @@
     }
   ],
   "metadata": {
-    "accelerator": "GPU",
     "colab": {
-      "gpuType": "T4",
       "provenance": [],
       "generative_ai_disabled": true
     },
