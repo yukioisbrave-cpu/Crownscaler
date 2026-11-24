@@ -43,6 +43,7 @@
       "cell_type": "markdown",
       "source": [
         "**UPDATES**\n",
+        "* New model \"Prot V3\"\n",
         "* Convert to HDR\n",
         "* Use and Share Presets\n",
         "* Faster Twixtoring\n",
