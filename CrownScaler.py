@@ -54,7 +54,9 @@
     }
   ],
   "metadata": {
+    "accelerator": "GPU",
     "colab": {
+      "gpuType": "T4",
       "provenance": [],
       "generative_ai_disabled": true
     },
